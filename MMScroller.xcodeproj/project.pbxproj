@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359666A91437FCE600458F03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359666A81437FCE600458F03 /* Cocoa.framework */; };
+		359666B31437FCE600458F03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 359666B11437FCE600458F03 /* InfoPlist.strings */; };
+		359666B51437FCE600458F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359666B41437FCE600458F03 /* main.m */; };
+		359666B91437FCE600458F03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 359666B71437FCE600458F03 /* Credits.rtf */; };
+		359666BC1437FCE600458F03 /* MMScrollerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359666BB1437FCE600458F03 /* MMScrollerAppDelegate.m */; };
+		359666BF1437FCE600458F03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359666BD1437FCE600458F03 /* MainMenu.xib */; };
+		359666CB1437FD4A00458F03 /* MMDrawingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 359666C61437FD4A00458F03 /* MMDrawingUtils.m */; };
+		359666CC1437FD4A00458F03 /* MMScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 359666C81437FD4A00458F03 /* MMScroller.m */; };
+		359666CD1437FD4A00458F03 /* MMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 359666CA1437FD4A00458F03 /* MMScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		359666A41437FCE600458F03 /* MMScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359666A81437FCE600458F03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		359666AB1437FCE600458F03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		359666AC1437FCE600458F03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		359666AD1437FCE600458F03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		359666B01437FCE600458F03 /* MMScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMScroller-Info.plist"; sourceTree = "<group>"; };
+		359666B21437FCE600458F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		359666B41437FCE600458F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359666B61437FCE600458F03 /* MMScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMScroller-Prefix.pch"; sourceTree = "<group>"; };
+		359666B81437FCE600458F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		359666BA1437FCE600458F03 /* MMScrollerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMScrollerAppDelegate.h; sourceTree = "<group>"; };
+		359666BB1437FCE600458F03 /* MMScrollerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMScrollerAppDelegate.m; sourceTree = "<group>"; };
+		359666BE1437FCE600458F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		359666C51437FD4A00458F03 /* MMDrawingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawingUtils.h; sourceTree = "<group>"; };
+		359666C61437FD4A00458F03 /* MMDrawingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawingUtils.m; sourceTree = "<group>"; };
+		359666C71437FD4A00458F03 /* MMScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScroller.h; sourceTree = "<group>"; };
+		359666C81437FD4A00458F03 /* MMScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScroller.m; sourceTree = "<group>"; };
+		359666C91437FD4A00458F03 /* MMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScrollView.h; sourceTree = "<group>"; };
+		359666CA1437FD4A00458F03 /* MMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359666A11437FCE600458F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359666A91437FCE600458F03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359666991437FCE600458F03 = {
+			isa = PBXGroup;
+			children = (
+				359666AE1437FCE600458F03 /* MMScroller */,
+				359666A71437FCE600458F03 /* Frameworks */,
+				359666A51437FCE600458F03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359666A51437FCE600458F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359666A41437FCE600458F03 /* MMScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359666A71437FCE600458F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359666A81437FCE600458F03 /* Cocoa.framework */,
+				359666AA1437FCE600458F03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359666AA1437FCE600458F03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359666AB1437FCE600458F03 /* AppKit.framework */,
+				359666AC1437FCE600458F03 /* CoreData.framework */,
+				359666AD1437FCE600458F03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		359666AE1437FCE600458F03 /* MMScroller */ = {
+			isa = PBXGroup;
+			children = (
+				359666BA1437FCE600458F03 /* MMScrollerAppDelegate.h */,
+				359666BB1437FCE600458F03 /* MMScrollerAppDelegate.m */,
+				359666BD1437FCE600458F03 /* MainMenu.xib */,
+				359666C51437FD4A00458F03 /* MMDrawingUtils.h */,
+				359666C61437FD4A00458F03 /* MMDrawingUtils.m */,
+				359666C71437FD4A00458F03 /* MMScroller.h */,
+				359666C81437FD4A00458F03 /* MMScroller.m */,
+				359666C91437FD4A00458F03 /* MMScrollView.h */,
+				359666CA1437FD4A00458F03 /* MMScrollView.m */,
+				359666AF1437FCE600458F03 /* Supporting Files */,
+			);
+			path = MMScroller;
+			sourceTree = "<group>";
+		};
+		359666AF1437FCE600458F03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359666B01437FCE600458F03 /* MMScroller-Info.plist */,
+				359666B11437FCE600458F03 /* InfoPlist.strings */,
+				359666B41437FCE600458F03 /* main.m */,
+				359666B61437FCE600458F03 /* MMScroller-Prefix.pch */,
+				359666B71437FCE600458F03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359666A31437FCE600458F03 /* MMScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359666C21437FCE600458F03 /* Build configuration list for PBXNativeTarget "MMScroller" */;
+			buildPhases = (
+				359666A01437FCE600458F03 /* Sources */,
+				359666A11437FCE600458F03 /* Frameworks */,
+				359666A21437FCE600458F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMScroller;
+			productName = MMScroller;
+			productReference = 359666A41437FCE600458F03 /* MMScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3596669B1437FCE600458F03 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3596669E1437FCE600458F03 /* Build configuration list for PBXProject "MMScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 359666991437FCE600458F03;
+			productRefGroup = 359666A51437FCE600458F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359666A31437FCE600458F03 /* MMScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359666A21437FCE600458F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359666B31437FCE600458F03 /* InfoPlist.strings in Resources */,
+				359666B91437FCE600458F03 /* Credits.rtf in Resources */,
+				359666BF1437FCE600458F03 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359666A01437FCE600458F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359666B51437FCE600458F03 /* main.m in Sources */,
+				359666BC1437FCE600458F03 /* MMScrollerAppDelegate.m in Sources */,
+				359666CB1437FD4A00458F03 /* MMDrawingUtils.m in Sources */,
+				359666CC1437FD4A00458F03 /* MMScroller.m in Sources */,
+				359666CD1437FD4A00458F03 /* MMScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		359666B11437FCE600458F03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359666B21437FCE600458F03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		359666B71437FCE600458F03 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359666B81437FCE600458F03 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		359666BD1437FCE600458F03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359666BE1437FCE600458F03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		359666C01437FCE600458F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		359666C11437FCE600458F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		359666C31437FCE600458F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMScroller/MMScroller-Prefix.pch";
+				INFOPLIST_FILE = "MMScroller/MMScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		359666C41437FCE600458F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMScroller/MMScroller-Prefix.pch";
+				INFOPLIST_FILE = "MMScroller/MMScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3596669E1437FCE600458F03 /* Build configuration list for PBXProject "MMScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359666C01437FCE600458F03 /* Debug */,
+				359666C11437FCE600458F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359666C21437FCE600458F03 /* Build configuration list for PBXNativeTarget "MMScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359666C31437FCE600458F03 /* Debug */,
+				359666C41437FCE600458F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3596669B1437FCE600458F03 /* Project object */;
+}
